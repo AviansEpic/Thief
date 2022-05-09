@@ -6,7 +6,6 @@ from colorama import Fore, init
 import os
 import threading
 screenlock = threading.Semaphore(value=1) 
-import sys
 import time
 
 loadingtime = time.time()
